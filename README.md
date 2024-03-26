@@ -1,1 +1,1 @@
-https://github.com/ArtemDreamchik/ono-tebe-nado-1.git
+https://github.com/ArtemDreamchik/ono-tebe-nado.git
