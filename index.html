@@ -13,7 +13,9 @@
     <header class="header">
       <nav class="menu">
         <ul class="menu-list">
-          <li class="menu-item">главная</li>
+          <li class="menu-item">
+            <a href="" class="header__link_active">главная</a>
+          </li>
           <li class="menu-item">
             <a href="#0" class="menu-link">посмотреть лоты</a>
           </li>
@@ -22,16 +24,11 @@
           </li>
         </ul>
       </nav>
-      <a href="" class="black-logo"><img src="./images/logo-black.svg" alt="Логотип Оно тебе надо"/></a>
+      <a class="black-logo"><img src="./images/logo-black.svg" alt="Логотип Оно тебе надо"/></a>
       <address class="contacts">
-        <p>
-          <a href="tel:+99995555555" class="contacts-link">+9 999 555 5555</a>
-        </p>
-        <p>
-          <a href="mailto:info@sobaka.ge" class="contacts-link"
-            >info@sobaka.ge</a
-          >
-        </p>
+        <a href="tel:+99995555555" class="contacts-link">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="contacts-link"
+            >info@sobaka.ge</a>
         <p>
           наб. Принсенграхт 263-<br />
           265, Амстердам
@@ -55,23 +52,23 @@
             ></span
           >
         </h1>
-        <section class="cover__description">
+        <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
-        </section>
+          <button type="button" class="bet-button">Сделать ставку</button>
+        </div>
       </section>
       <section class="lots">
-        <h3 class="lots-heading">Лоты</h3>
+        <h2 class="lots-heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <div class="overlay"></div>
             <a href="!#" class="card-link"
               ><article class="card card_type_film">
-                <h4 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </h4>
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -84,9 +81,9 @@
             <div class="overlay"></div>
             <a href="" class="card-link"
               ><article class="card card_type_book">
-                <h4 class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h4>
+                </h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -102,9 +99,9 @@
             <div class="overlay"></div>
             <a href="" class="card-link"
               ><article class="card card_type_picture">
-                <h4 class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h4>
+                </h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -128,7 +125,7 @@
           </div>
         </div>
         <div class="about__column__text">
-          <h3 class="about__title">Об аукционе</h3>
+          <h2 class="about__title">Об аукционе</h2>
           <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -149,14 +146,10 @@
     </main>
     <footer class="footer">
       <address class="contacts_footer">
-        <p>
-          <a href="tel:+99995555555" class="contacts-link">+9 999 555 5555</a>
-        </p>
-        <p>
-          <a href="mailto:info@sobaka.ge" class="contacts-link"
+        <a href="tel:+99995555555" class="contacts-link">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="contacts-link"
             >info@sobaka.ge</a
           >
-        </p>
         <p>
           наб. Принсенграхт 263-<br />
           265, Амстердам
@@ -164,7 +157,9 @@
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-list-item">главная</li>
+          <li class="footer__menu-list-item">
+            <a href="" class="header__link_active">главная</a>
+          </li>
           <li class="footer__menu-list-item">
             <a href="#0" class="footer__menu-link">посмотреть лоты</a>
           </li>
@@ -173,23 +168,20 @@
           </li>
         </ul>
       </nav>
-      <div class="footer__social-list">
-        <ul class="footer__social-list-item">
-          <li class="footer__social-list-item">
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
             <a href="#0" class="footer__social-link"
               ><img src="./images/yt.svg" alt="" class="footer__social-icon"
             /></a>
           </li>
-        </ul>
-        <ul class="footer__social-list-item">
-          <li class="footer__social-list-item">
+        </li>
+        <li class="footer__social-list-item">
             <a href="#0" class="footer__social-link"
               ><img src="./images/vk.svg" alt="" class="footer__social-icon"
             /></a>
           </li>
-        </ul>
-        <ul class="footer__social-list-item">
-          <li class="footer__social-list-item">
+        </li>
+        <li class="footer__social-list-item">
             <a href="#0" class="footer__social-link"
               ><img
                 src="./images/pinterest.svg"
@@ -197,8 +189,8 @@
                 class="footer__social-icon"
             /></a>
           </li>
-        </ul>
-      </div>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
