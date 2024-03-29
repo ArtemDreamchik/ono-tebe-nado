@@ -136,8 +136,7 @@ ul li:first-child {
 
   position: relative;
   z-index: 1;
-
-  margin-left: 13px;
+  padding-left: 30px;
   margin-top: 130px;
 }
 
@@ -192,17 +191,17 @@ ul li:first-child {
 
 .lots__card-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 25px;
   align-items: center;
   list-style-type: none;
 }
 
 .lots__card-list-item {
-  width: 100%;
+  flex-grow: 1;
+  max-width: 334px;
   min-height: 100%;
   position: relative;
-  flex-grow: 1;
 }
 
 .card-link {
@@ -392,6 +391,10 @@ ul li:first-child {
 
 .footer__menu-link {
   text-underline-offset: 0.2em
+}
+
+.footer__link_active {
+  text-decoration: none;
 }
 
 .footer__menu-list-item {
